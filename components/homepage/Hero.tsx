@@ -1,11 +1,13 @@
 import Image from "next/image";
 import blob from "@/assets/blob.svg";
 import halfsun from "@/assets/halfsun.svg";
+import heroImage from "@/assets/hero-image4.jpg";
+import Marquee from "react-fast-marquee";
 import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen pt-[9.5rem] relative">
+    <section className="min-h-screen pt-[9.5rem] relative pb-[4rem]">
       <div className="absolute translate-y-[-3rem] right-0 z-0">
         <Image src={blob} alt="blob" width={200} height={200} className="z-0" />
       </div>
@@ -26,7 +28,7 @@ const Hero = () => {
         </p>
         <Link
           href={"/"}
-          className="flex flex-col justify-center items-center mt-[3rem]"
+          className="flex flex-col justify-center items-center mt-[3rem] w-fit mx-auto"
         >
           <p className="uppercase tracking-widest text-[0.9rem] font-medium">
             Learn More
@@ -39,6 +41,25 @@ const Hero = () => {
             className="rotate-180 translate-y-[-0.9rem]"
           />
         </Link>
+      </div>
+
+      <div className="px-[1.5rem] w-auto">
+        <Image
+          src={heroImage}
+          alt="hero-image"
+          width={500}
+          height={500}
+          className="w-full h-auto"
+        />
+      </div>
+      <div className="bg-[#94edfc] bg[#ffea70] mt-[2rem] py-[1rem]">
+        <Marquee gradient={false} direction="left" speed={70}>
+          {Array.from({ length: 10 }, (_, index) => (
+            <p className="text-[0.8rem] uppercase pr-[2rem] tracking-widest font-louize italic">
+              Loved Youngsters
+            </p>
+          ))}
+        </Marquee>
       </div>
     </section>
   );

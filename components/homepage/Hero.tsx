@@ -1,21 +1,42 @@
 import Image from "next/image";
 import blob from "@/assets/blob.svg";
 import halfsun from "@/assets/halfsun.svg";
+import stroke1 from "@/assets/stroke1.svg";
+import stroke2 from "@/assets/stroke2.svg";
 import heroImage from "../../assets/heroimage4.png";
 import Marquee from "react-fast-marquee";
 import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen pt-[9.5rem] relative pb-[4rem]">
-      <div className="absolute translate-y-[-3rem] right-0 z-0">
+    <section className="min-h-screen pt-[9.5rem] md:pt-[15rem] relative pb-[4rem]">
+      <div className="absolute translate-y-[-3rem] right-0 md:right-[300px] z-0">
         <Image src={blob} alt="blob" width={200} height={200} className="z-0" />
       </div>
-      <div className="relative z-10">
-        <p className="uppercase text-center text-[0.8rem] tracking-widest font-medium">
+
+      <div className="absolute md:hidden translate-y[-3rem] translate-x-[-50%] left-0 md:left-[300px] z-0 ">
+        <Image
+          src={stroke2}
+          alt="stroke2"
+          width={200}
+          height={200}
+          className="z-0"
+        />
+      </div>
+      <div className="absolute md:scale-x-[2] top-[50%] md:translate-x-[-50%] left-0 md:left-[350px] z-0">
+        <Image
+          src={stroke1}
+          alt="stroke1"
+          width={200}
+          height={200}
+          className="z-0"
+        />
+      </div>
+      <div className="relative z-10 pb-[2rem]">
+        <p className="uppercase text-center text-[0.8rem] md:text-[0.7rem] tracking-widest font-medium">
           About Loved Youngsters
         </p>
-        <p className="text-[1.9rem] font-louize-medium text-center mt-[2rem] px-[1rem]">
+        <p className="text-[1.9rem] font-louize-medium text-center mt-[2rem] px-[1rem] md:w-[50%] md:mx-auto">
           We create personalized{" "}
           <span className="font-louize-mediumitalic font-semibold">
             projects, devotionals and products
@@ -30,7 +51,7 @@ const Hero = () => {
           href={"/"}
           className="flex flex-col justify-center items-center mt-[3rem] w-fit mx-auto"
         >
-          <p className="uppercase tracking-widest text-[0.9rem] font-medium">
+          <p className="uppercase tracking-widest text-[0.8rem] md:text-[0.7rem] font-medium">
             Learn More
           </p>
           <Image
@@ -38,21 +59,21 @@ const Hero = () => {
             alt="half-sun"
             width={70}
             height={70}
-            className="rotate-180 translate-y-[-0.9rem]"
+            className="rotate-180 translate-y-[-0.9rem] hover:rotate-[360deg] duration-300"
           />
         </Link>
       </div>
 
-      <div className="px[1.5rem] w-fit border-2 mx-[1.5rem] rounded-t-[200px]">
+      <div className="w-fit border-2 border-[#ffea70] mx-[1.5rem] rounded-t-full md:mx-auto overflow-hidden">
         <Image
           src={heroImage}
           alt="hero-image"
           width={500}
           height={500}
-          className="w-full h-auto rounded-t-[200px]"
+          className="w-full h-auto rounded-t-full hover:scale-[1.1] grayscale-0 duration-300 cursor-pointer"
         />
       </div>
-      <div className="bg-[#94edfc] bg[#ffea70] mt-[2rem] py-[1rem]">
+      <div className="bg-[#94edfc] mt-[3rem] py-[1.5rem]">
         <Marquee gradient={false} direction="left" speed={70}>
           {Array.from({ length: 10 }, (_, index) => (
             <p

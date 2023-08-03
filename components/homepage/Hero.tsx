@@ -43,13 +43,13 @@ const Hero = () => {
         </Link>
       </div>
 
-      <div className="px-[1.5rem] w-auto rounded--[50%]">
+      <div className="px[1.5rem] w-fit border-2 mx-[1.5rem] rounded-t-[200px]">
         <Image
           src={heroImage}
           alt="hero-image"
           width={500}
           height={500}
-          // className="w-full h-auto rounded--[50%]"
+          className="w-full h-auto rounded-t-[200px]"
         />
       </div>
       <div className="bg-[#94edfc] bg[#ffea70] mt-[2rem] py-[1rem]">

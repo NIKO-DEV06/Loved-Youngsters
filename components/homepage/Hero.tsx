@@ -1,7 +1,7 @@
 import Image from "next/image";
 import blob from "@/assets/blob.svg";
 import halfsun from "@/assets/halfsun.svg";
-import heroImage from "../../assets/hero-image4.jpg";
+// import heroImage from "../../assets/hero-image4.jpg";
 import Marquee from "react-fast-marquee";
 import Link from "next/link";
 
@@ -43,7 +43,7 @@ const Hero = () => {
         </Link>
       </div>
 
-      <div className="px-[1.5rem] w-auto rounded--[50%]">
+      {/* <div className="px-[1.5rem] w-auto rounded--[50%]">
         <Image
           src={heroImage}
           alt="hero-image"
@@ -51,11 +51,14 @@ const Hero = () => {
           height={500}
           className="w-full h-auto rounded--[50%]"
         />
-      </div>
+      </div> */}
       <div className="bg-[#94edfc] bg[#ffea70] mt-[2rem] py-[1rem]">
         <Marquee gradient={false} direction="left" speed={70}>
           {Array.from({ length: 10 }, (_, index) => (
-            <p className="text-[0.8rem] uppercase pr-[2rem] tracking-widest font-louize italic">
+            <p
+              key={index}
+              className="text-[0.8rem] uppercase pr-[2rem] tracking-widest font-louize italic"
+            >
               Loved Youngsters
             </p>
           ))}

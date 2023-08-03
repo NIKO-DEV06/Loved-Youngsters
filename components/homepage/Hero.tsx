@@ -1,7 +1,7 @@
 import Image from "next/image";
 import blob from "@/assets/blob.svg";
 import halfsun from "@/assets/halfsun.svg";
-import heroImage from "../../assets/heroimage4.JPG";
+import heroImage from "../../assets/heroimage4.png";
 import Marquee from "react-fast-marquee";
 import Link from "next/link";
 

@@ -10,11 +10,11 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section className="min-h-screen pt-[9.5rem] md:pt-[15rem] relative pb-[4rem]">
-      <div className="absolute translate-y-[-3rem] right-0 md:right-[300px] z-0">
+      <div className="absolute translate-y-[-3rem] right-0 md:right-[300px] z-0 blur-sm">
         <Image src={blob} alt="blob" width={200} height={200} className="z-0" />
       </div>
 
-      <div className="absolute md:hidden translate-y[-3rem] translate-x-[-50%] left-0 md:left-[300px] z-0 ">
+      <div className="absolute md:hidden translate-y[-3rem] translate-x-[-50%] left-0 md:left-[300px] z-0 blur-sm">
         <Image
           src={stroke2}
           alt="stroke2"
@@ -23,7 +23,7 @@ const Hero = () => {
           className="z-0"
         />
       </div>
-      <div className="absolute md:scale-x-[2] top-[50%] md:translate-x-[-50%] left-0 md:left-[350px] z-0">
+      <div className="absolute md:scale-x-[2] top-[50%] md:translate-x-[-50%] left-0 md:left-[350px] z-0 blur-sm">
         <Image
           src={stroke1}
           alt="stroke1"
@@ -49,9 +49,9 @@ const Hero = () => {
         </p>
         <Link
           href={"/"}
-          className="flex flex-col justify-center items-center mt-[3rem] w-fit mx-auto"
+          className="group flex flex-col justify-center items-center mt-[3rem] w-fit mx-auto"
         >
-          <p className="uppercase tracking-widest text-[0.8rem] md:text-[0.7rem] font-medium">
+          <p className="uppercase tracking-widest group-hover:tracking-[0.15em] duration-200 text-[0.8rem] md:text-[0.7rem] font-medium">
             Learn More
           </p>
           <Image
@@ -59,7 +59,7 @@ const Hero = () => {
             alt="half-sun"
             width={70}
             height={70}
-            className="rotate-180 translate-y-[-0.9rem] hover:rotate-[360deg] duration-300"
+            className="rotate-180 translate-y-[-0.9rem] duration-300"
           />
         </Link>
       </div>
@@ -70,7 +70,7 @@ const Hero = () => {
           alt="hero-image"
           width={500}
           height={500}
-          className="w-full h-auto rounded-t-full hover:scale-[1.1] grayscale-0 duration-300 cursor-pointer"
+          className="w-full h-auto rounded-t-full md:hover:scale-[1.1] grayscale-0 duration-300 cursor-pointer"
         />
       </div>
       <div className="bg-[#94edfc] mt-[3rem] py-[1.5rem]">

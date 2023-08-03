@@ -49,7 +49,7 @@ const Hero = () => {
           alt="hero-image"
           width={500}
           height={500}
-          className="w-full h-auto rounded--[50%]"
+          // className="w-full h-auto rounded--[50%]"
         />
       </div>
       <div className="bg-[#94edfc] bg[#ffea70] mt-[2rem] py-[1rem]">

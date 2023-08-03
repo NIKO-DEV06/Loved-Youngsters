@@ -51,7 +51,7 @@ const Hero = () => {
           href={"/"}
           className="group flex flex-col justify-center items-center mt-[3rem] w-fit mx-auto"
         >
-          <p className="uppercase tracking-widest group-hover:tracking-[0.15em] duration-200 text-[0.8rem] md:text-[0.7rem] font-medium">
+          <p className="uppercase tracking-widest group-hover:tracking-[0.15em] duration-200 text-[0.8rem] md:text-[0.7rem] font-medium group-hover:font-bold">
             Learn More
           </p>
           <Image
@@ -64,7 +64,7 @@ const Hero = () => {
         </Link>
       </div>
 
-      <div className="w-fit border-2 border-[#ffea70] mx-[1.5rem] rounded-t-full md:mx-auto overflow-hidden">
+      <div className="w-fit border-2 border-[#fff] mx-[1.5rem] rounded-t-full md:mx-auto overflow-hidden">
         <Image
           src={heroImage}
           alt="hero-image"

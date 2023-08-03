@@ -5,8 +5,8 @@ import herofounder from "../../assets/herofounder.png";
 
 const Founder = () => {
   return (
-    <section className="min-h-screen bg-[#94edfc] pt-[5rem] px-[1.5rem]">
-      <div className="border-2 rounded-2xl border-[#ffea70]">
+    <section className="min-h-screen bg-[#94edfc] pt-[5rem] px-[1.5rem] flex flex-col md:flex-row md:justify-center md:items-center md:gap-[3rem] lg:gap-[5rem] relative">
+      <div className="border-2 rounded-2xl border-[#fff] w-fit h-fit">
         <Image
           src={herofounder}
           alt="founder"
@@ -15,8 +15,8 @@ const Founder = () => {
           className="mx-auto rounded-2xl"
         />
       </div>
-      <div className="mt-[3rem]">
-        <h1 className=" font-louize-medium text-[2rem] uppecase tracking-wide">
+      <div className="mt-[3rem] md:w-[45%]">
+        <h1 className=" font-louize-medium text-[2rem] uppecase tracking-wide lg:w-[80%] xl:w-[70%] lg:text-[2.5rem]">
           Meet the dreamer{" "}
           <span className="font-louize-mediumitalic">behind</span> Loved
           Youngsters
@@ -28,9 +28,9 @@ const Founder = () => {
         </p>
         <Link
           href={"/"}
-          className="group flex flex-col justify-center items-center mt-[2rem] w-fit ml-[1rem]"
+          className="group flex flex-col justify-center items-center mt-[2rem] w-fit ml-[1rem] md:ml-0"
         >
-          <p className="uppercase tracking-widest group-hover:tracking-[0.15em] duration-200 text-[0.8rem] md:text-[0.7rem] font-medium">
+          <p className="uppercase tracking-widest duration-200 text-[0.8rem] md:text-[0.7rem] font-medium group-hover:font-bold">
             Know More
           </p>
           <Image

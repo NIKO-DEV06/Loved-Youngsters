@@ -13,11 +13,11 @@ const Header = () => {
     ? "hamburger--vortex is-active"
     : "hamburger--vortex";
   return (
-    <header className="bg-[#0cc0df] border-b-[1px] border-b-black md:border-none flex md:flex-col items-center justify-between px-[1.5rem] pt-[1rem] pb-[1rem] md:pb-0 fixed w-screen z-[11]">
+    <header className="bg-[#0cc0df] border-b-[1px] border-b-white md:border-none flex md:flex-col items-center justify-between px-[1.5rem] pt-[1rem] pb-[1rem] md:pb-0 fixed w-screen z-[11]">
       <h1 className="font-louize-mediumitalic font-bold text-[2rem] md:text-[3.5rem] md:tracking-wide text-[#c4f4fc] text[#ffd900] md:pt-[0.5rem]">
         Loved Youngsters
       </h1>
-      <div className="md:hidden">
+      <div className="md:hidden invert">
         <button
           className={`${menuClass} scale-[0.75] scale-x-[0.8]`}
           type="button"

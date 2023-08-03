@@ -23,7 +23,7 @@ const Hero = () => {
           className="z-0"
         />
       </div>
-      <div className="absolute md:scale-x-[2] top-[50%] md:translate-x-[-50%] left-0 md:left-[350px] z-0 blur-sm">
+      <div className="absolute md:scale-x-[2] top-[50%] md:top-[60%] md:translate-x-[-50%] left-0 md:left-[350px] z-0 blur-sm">
         <Image
           src={stroke1}
           alt="stroke1"
@@ -36,7 +36,7 @@ const Hero = () => {
         <p className="uppercase text-center text-[0.8rem] md:text-[0.7rem] tracking-widest font-medium">
           About Loved Youngsters
         </p>
-        <p className="text-[1.9rem] font-louize-medium text-center mt-[2rem] px-[1rem] md:w-[50%] md:mx-auto">
+        <p className="text-[1.9rem] md:text-[3rem] font-louize-medium md:font-louize text-center mt-[2rem] px-[1rem] md:w-[50%] md:mx-auto">
           We create personalized{" "}
           <span className="font-louize-mediumitalic font-semibold">
             projects, devotionals and products

@@ -6,17 +6,17 @@ import herofounder from "../../assets/herofounder.png";
 const Founder = () => {
   return (
     <section className="min-h-screen bg-[#94edfc] pt-[5rem] px-[1.5rem] flex flex-col md:flex-row md:justify-center md:items-center md:gap-[3rem] lg:gap-[5rem] relative">
-      <div className="border-2 rounded-2xl border-[#fff] w-fit h-fit">
+      <div className="border-2 rounded-2xl border-[#fff] w-fit h-fit overflow-hidden">
         <Image
           src={herofounder}
           alt="founder"
           width={400}
           height={400}
-          className="mx-auto rounded-2xl"
+          className="mx-auto rounded-2xl md:hover:scale-[1.1] duration-300 cursor-pointer"
         />
       </div>
       <div className="mt-[3rem] md:w-[45%]">
-        <h1 className=" font-louize-medium text-[2rem] uppecase tracking-wide lg:w-[80%] xl:w-[70%] lg:text-[2.5rem]">
+        <h1 className=" font-louize-medium text-[2rem] uppecase tracking-wide lg:w-[80%] xl:w-[70%] lg:text-[2.5rem] leading-[3rem] underline">
           Meet the dreamer{" "}
           <span className="font-louize-mediumitalic">behind</span> Loved
           Youngsters

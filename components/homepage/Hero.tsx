@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen pt-[9.5rem] md:pt-[15rem] relative pb-[4rem]">
+    <section className="min-h-screen pt[9.5rem] md:pt[15rem] relative pb-[4rem]">
       <div className="absolute translate-y-[-3rem] right-0 md:right-[300px] z-0 blur-sm">
         <Image src={blob} alt="blob" width={200} height={200} className="z-0" />
       </div>

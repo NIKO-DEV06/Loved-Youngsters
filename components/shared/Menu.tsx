@@ -32,10 +32,10 @@ const Menu = ({
             </p>
             <div className="relative w-fit group">
               <Link
-                href={"mailto:felixsunday@yahoo.com"}
+                href={"mailto:lovedyoungsters@gmail.com"}
                 className="font-louize"
               >
-                felixsunday@yahoo.com
+                lovedyoungsters@gmail.com
                 <div
                   className={`scale-x-0 absolute w-full h-[1px] bg-black bottom-0 group-hover:scale-x-100 duration-300`}
                 ></div>

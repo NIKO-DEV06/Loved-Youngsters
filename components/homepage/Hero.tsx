@@ -73,7 +73,7 @@ const Hero = () => {
           className="w-full h-auto rounded-t-full md:hover:scale-[1.1] grayscale-0 duration-300 cursor-pointer"
         />
       </div>
-      <div className="bg-[#94edfc] mt-[3rem] py-[1.5rem]">
+      <div className="bg-[#0cc0df] mt-[3rem] py-[1.5rem]">
         <Marquee gradient={false} direction="left" speed={70}>
           {Array.from({ length: 10 }, (_, index) => (
             <p

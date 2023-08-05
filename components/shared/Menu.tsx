@@ -1,6 +1,7 @@
 import { Dispatch, SetStateAction } from "react";
 import MenuNav from "./MenuNav";
-
+import logo from "@/assets/logo.png";
+import Image from "next/image";
 import Link from "next/link";
 import { BgReveal, MenuReveal } from "@/components/utils/MenuReveal";
 
@@ -15,9 +16,13 @@ const Menu = ({
     <>
       <MenuReveal isOpen={isOpen}>
         <div className="fixed bg-[#94edfc] z-[30] w-screen h-screen overflow-scroll">
-          <p className=" font-louize-mediumitalic font-bold text-[1.5rem] mt-[1.5rem] md:hidden underline">
-            Loved Youngsters
-          </p>
+          <Image
+            src={logo}
+            width={140}
+            height={20}
+            alt="logo"
+            className="h-[70px] md:h-[90px] md:w-[200px] object-cover translate-y-[2rem] translate-x-[-1rem]"
+          />
           <div className="flex mt-[4rem] md:justify-center">
             <div className="flex flex-col gap-[1rem] pl-[1rem]">
               <p className="font-sofia-extralight opacity-50 text-[1.2rem] md:text-base uppercase tracking-widest">

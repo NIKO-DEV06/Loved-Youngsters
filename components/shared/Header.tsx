@@ -20,13 +20,7 @@ const Header = () => {
     <ImageReveal>
       <>
         <header className="bg-[#35e1ff] border-b-[1px] border-b-white md:border-none flex md:flex-col items-center justify-between px-[1.5rem] pt-[1rem] md:pt-[2rem] pb-[1rem] md:pb-0 fixed md:relative w-screen z-[11]">
-          {/* <h1 className="font-louize-mediumitalic font-bold text-[2rem] md:text-[3.5rem] md:tracking-wide text-[#c4f4fc] text[#ffd900] md:pt-[0.5rem]">
-          Loved Youngsters
-        </h1> */}
           <ImageReveal>
-            {/* <h1 className="font-louize-mediumitalic text-[3rem] font-bold">
-                  Loved Youngsters
-                </h1> */}
             <Image
               src={logo}
               width={140}

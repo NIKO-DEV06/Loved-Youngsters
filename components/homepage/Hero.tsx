@@ -23,15 +23,7 @@ const Hero = () => {
           className="z-0"
         />
       </div>
-      <div className="absolute md:scale-x-[2] top-[50%] md:top-[60%] md:translate-x-[-50%] left-0 md:left-[350px] z-0 blur-sm">
-        <Image
-          src={stroke1}
-          alt="stroke1"
-          width={200}
-          height={200}
-          className="z-0"
-        />
-      </div>
+
       <div className="relative z-10 pb-[2rem]">
         <p className="uppercase text-center text-[0.8rem] md:text-[0.7rem] tracking-widest font-medium">
           About Loved Youngsters
@@ -64,16 +56,10 @@ const Hero = () => {
         </Link>
       </div>
 
-      <div className="w-fit border-2 border-[#fff] mx-[1.5rem] rounded-t-full md:mx-auto overflow-hidden">
-        <Image
-          src={heroImage}
-          alt="hero-image"
-          width={500}
-          height={500}
-          className="w-full h-auto rounded-t-full md:hover:scale-[1.1] grayscale-0 duration-300 cursor-pointer"
-        />
+      <div className="border-2 mx-[1.5rem] md:mx-[4rem]">
+        <video src="/intro.mp4" autoPlay loop playsInline controls></video>
       </div>
-      <div className="bg-[#0cc0df] mt-[3rem] py-[1.5rem]">
+      <div className="bg-[#0cc0df] mt-[4rem] py-[1.5rem]">
         <Marquee gradient={false} direction="left" speed={70}>
           {Array.from({ length: 10 }, (_, index) => (
             <p

@@ -18,7 +18,7 @@ const Menu = ({
           <p className=" font-louize-mediumitalic font-bold text-[1.5rem] mt-[1.5rem] md:hidden underline">
             Loved Youngsters
           </p>
-          <div className="flex mt-[4rem] md:justify-center md:gap-[8rem]">
+          <div className="flex mt-[4rem] md:justify-center">
             <div className="flex flex-col gap-[1rem] pl-[1rem]">
               <p className="font-sofia-extralight opacity-50 text-[1.2rem] md:text-base uppercase tracking-widest">
                 Menu

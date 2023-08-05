@@ -1,6 +1,7 @@
 import AboutSection from "./AboutSection";
 import Founder from "./Founder";
 import Hero from "./Hero";
+import Showcase from "./Showcase";
 
 const LandingPage = () => {
   return (
@@ -8,6 +9,7 @@ const LandingPage = () => {
       <Hero />
       <AboutSection />
       <Founder />
+      <Showcase />
     </section>
   );
 };

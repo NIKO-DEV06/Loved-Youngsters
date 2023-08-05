@@ -57,7 +57,7 @@ const Hero = () => {
       </div>
 
       <div className="border-2 mx-[1.5rem] md:mx-[4rem]">
-        <video src="/intro.mp4" autoPlay loop playsInline controls></video>
+        <video src="/intro.mp4" autoPlay playsInline controls></video>
       </div>
       <div className="bg-[#0cc0df] mt-[4rem] py-[1.5rem]">
         <Marquee gradient={false} direction="left" speed={70}>

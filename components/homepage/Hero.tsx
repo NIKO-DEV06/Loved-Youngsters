@@ -56,10 +56,17 @@ const Hero = () => {
         </Link>
       </div>
 
-      <div className="border-2 mx-[1.5rem] md:mx-[4rem]">
-        <video src="/intro.mp4" autoPlay playsInline controls></video>
+      <div className="border-2 mx-[1.5rem] md:mx-[4rem] ">
+        <video
+          src="/intro.mp4"
+          autoPlay
+          playsInline
+          controls
+          poster="/thumbnail.png"
+          className="w-full h-full object-cover"
+        ></video>
       </div>
-      <div className="bg-[#0cc0df] mt-[4rem] py-[1.5rem]">
+      <div className="bg-[#35e1ff] mt-[4rem] py-[1.5rem]">
         <Marquee gradient={false} direction="left" speed={70}>
           {Array.from({ length: 10 }, (_, index) => (
             <p

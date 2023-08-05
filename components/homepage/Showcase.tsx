@@ -6,7 +6,7 @@ import showcase4 from "@/assets/showcase4.png";
 
 const Showcase = () => {
   return (
-    <section className="min-h-screen bg-[#0cc0df] px-[1.5rem] pt-[6rem] pb-[10rem]">
+    <section className="min-h-screen bg-[#35e1ff] px-[1.5rem] pt-[6rem] pb-[10rem]">
       <div className="flex relative md:px-[2rem] lg:px-[7rem]">
         <Image
           src={showcase1}

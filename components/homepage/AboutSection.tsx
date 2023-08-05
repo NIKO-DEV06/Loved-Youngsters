@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const AboutSection = () => {
   return (
-    <section className="min-h-screen bg-[#0cc0df] px-[1.5rem] md:px-[4rem] relative pb-[5rem] md:pb-[8rem] md:flex md:justify-center md:items-center md:gap-[2rem] lg:gap-[4rem] md:pt-[5rem]">
+    <section className="min-h-screen bg-[#35e1ff] px-[1.5rem] md:px-[4rem] relative pb-[5rem] md:pb-[8rem] md:flex md:justify-center md:items-center md:gap-[2rem] lg:gap-[4rem] md:pt-[5rem]">
       <Image
         src={flower}
         width={100}

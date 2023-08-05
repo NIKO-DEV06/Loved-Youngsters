@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/assets/logo.svg";
+import logo from "@/assets/logo.png";
 import youtube from "@/assets/youtube.svg";
 import facebook from "@/assets/facebook.svg";
 import instagram from "@/assets/instagram.svg";
@@ -17,16 +17,23 @@ const Footer = () => {
         name="format-detection"
         content="telephone=no, date=no, email=no, address=no"
       />
-      <footer className="bg-[#94edfc] font-louize-medium grid place-items-center min-h-[68vh] text-black pb-[4rem]">
-        <div className="lg:flex translate-y-[1.5rem] lg:flex-row lg:justify-between lg:px-[8rem]">
-          <div className="flex flex-col justify-center lg:justify-start lg:items-start items-center gap-[2rem] lg:pr-[12rem]">
-            <div className="text-center mx-auto">
-              <Reveal y={100}>
-                <h1 className="font-louize-mediumitalic text-[3rem] font-bold">
+      <footer className="bg-[#94edfc] font-louize-medium grid place-items-center lg:block min-h-[68vh] text-black pb-[4rem]">
+        <div className=" mx-auto lg:mx-0 lg:px-[6rem] pt-[2rem]">
+          <ImageReveal>
+            {/* <h1 className="font-louize-mediumitalic text-[3rem] font-bold">
                   Loved Youngsters
-                </h1>
-              </Reveal>
-            </div>
+                </h1> */}
+            <Image
+              src={logo}
+              width={200}
+              height={200}
+              alt="logo"
+              className=""
+            />
+          </ImageReveal>
+        </div>
+        <div className="lg:flex translate-y-[-1.5rem] lg:flex-row lg:justify-between lg:px-[8rem]">
+          <div className="flex flex-col justify-center lg:justify-start lg:items-start items-center gap-[2rem] lg:pr-[12rem]">
             <Reveal y={80}>
               <div className="relative w-fit group">
                 <Link

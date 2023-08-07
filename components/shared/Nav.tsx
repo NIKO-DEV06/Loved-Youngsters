@@ -13,19 +13,19 @@ const Nav = () => {
     },
     {
       name: "Journey",
-      url: "/services",
+      url: "/journey",
     },
     {
       name: "Products",
-      url: "/contact",
+      url: "/products",
     },
     {
       name: "Contribute",
-      url: "/privacy-policy",
+      url: "/contribute",
     },
     {
       name: "Contact",
-      url: "/privacy-policy",
+      url: "/contact",
     },
   ];
   return (
@@ -34,7 +34,7 @@ const Nav = () => {
         {links.map((link, i) => (
           <Link
             key={i}
-            href={"/"}
+            href={link.url}
             className={`border-r-[1px] border-t-[1px] border-b-[1px] hover:bg-[#94edfc] duration-300 border-black w-full text-center py-[0.8rem] uppercase text-[0.7rem] tracking-wider ${
               i == 5 ? "border-r-[0px]" : ""
             }`}

@@ -1,11 +1,7 @@
 import Image from "next/image";
 import blob from "@/assets/blob.svg";
-import halfsun from "@/assets/halfsun.svg";
-import stroke1 from "@/assets/stroke1.svg";
 import stroke2 from "@/assets/stroke2.svg";
-import heroImage from "../../assets/heroimage4.png";
 import Marquee from "react-fast-marquee";
-import Link from "next/link";
 import { Reveal } from "../utils/Reveal";
 import { ImageReveal } from "../utils/ImageReveal";
 
@@ -38,10 +34,11 @@ const Hero = () => {
 
       <div className="relative z-10 pb-[2rem]">
         <Reveal y={80} width="100%">
-          <p className="uppercase text-center text-[0.8rem] md:text-[0.7rem] tracking-widest font-medium">
-            About Loved Youngsters
+          <p className="uppercase text-center text-[0.8rem] md:text-[0.7rem] tracking-widest font-medium underline">
+            Welcome to loved youngsters
           </p>
         </Reveal>
+
         <Reveal y={100}>
           <p className="text-[1.9rem] md:text-[3rem] font-louize-medium md:font-louize text-center mt-[2rem] px-[1rem] md:w-[50%] md:mx-auto">
             We create personalized{" "}
@@ -55,27 +52,10 @@ const Hero = () => {
             .
           </p>
         </Reveal>
-        <Reveal y={100} width="100%">
-          <Link
-            href={"/"}
-            className="group flex flex-col justify-center items-center mt-[3rem] w-fit mx-auto"
-          >
-            <p className="uppercase tracking-widest group-hover:tracking-[0.15em] duration-200 text-[0.8rem] md:text-[0.7rem] font-medium group-hover:font-bold">
-              Learn More
-            </p>
-            <Image
-              src={halfsun}
-              alt="half-sun"
-              width={70}
-              height={70}
-              className="rotate-180 translate-y-[-0.9rem] duration-300"
-            />
-          </Link>
-        </Reveal>
       </div>
 
       <ImageReveal>
-        <div className="border-2 mx-[1.5rem] md:mx-[4rem] ">
+        <div className="border-2 mx-[1.5rem] md:mx-[4rem] mt-[1rem]">
           <video
             src="/intro.mp4"
             autoPlay
@@ -89,7 +69,7 @@ const Hero = () => {
       <Reveal y={80}>
         <div className="bg-[#35e1ff] mt-[4rem] py-[1.5rem]">
           <Marquee gradient={false} direction="left" speed={70}>
-            {Array.from({ length: 10 }, (_, index) => (
+            {Array.from({ length: 15 }, (_, index) => (
               <p
                 key={index}
                 className="text-[0.8rem] uppercase pr-[2rem] tracking-widest font-louize italic"

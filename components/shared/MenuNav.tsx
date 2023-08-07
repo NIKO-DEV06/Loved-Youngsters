@@ -22,19 +22,19 @@ const MenuNav = ({
     },
     {
       name: "Journey",
-      url: "/services",
+      url: "/journey",
     },
     {
       name: "Products",
-      url: "/contact",
+      url: "/products",
     },
     {
       name: "Contribute",
-      url: "/privacy-policy",
+      url: "/contribute",
     },
     {
       name: "Contact",
-      url: "/privacy-policy",
+      url: "/contact",
     },
   ];
   return (

@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const AboutSection = () => {
   return (
-    <section className="min-h-screen bg-[#35e1ff] px-[1.5rem] md:px-[4rem] relative pb-[5rem] md:pb-[8rem] md:flex md:justify-center md:items-center md:gap-[2rem] lg:gap-[4rem] md:pt-[5rem]">
+    <section className="min-h-screen border-y-[1.5px] border-black bg-[#35e1ff] px-[1.5rem] md:px-[4rem] relative pb-[5rem] md:pb-[8rem] md:flex md:justify-center md:items-center md:gap-[2rem] lg:gap-[4rem] md:pt-[5rem]">
       <ImageReveal>
         <Image
           src={flower}
@@ -46,7 +46,7 @@ const AboutSection = () => {
         </Reveal>
         <ImageReveal>
           <Link
-            href={"/"}
+            href={"/about"}
             className="border-[1px] hover:bg-[#94edfc] duration-300 border-black uppercase text-[0.8rem] tracking-widest px-[0.8rem] py-[0.7rem] hover:font-semibold"
           >
             Learn More
@@ -54,13 +54,13 @@ const AboutSection = () => {
         </ImageReveal>
       </div>
       <ImageReveal>
-        <div className="mt-[4rem] rounded-lg border-2 w-fit h-fit mx-auto overflow-hidden group cursor-pointer">
+        <div className="mt-[4rem] rounded-2xl border-2 border-black w-fit h-fit mx-auto overflow-hidden group cursor-pointer">
           <Image
             src={aboutimg}
             alt="about"
             width={500}
             height={200}
-            className="rounded-lg md:group-hover:scale-[1.05] duration-300"
+            className="rounded-2xl md:group-hover:scale-[1.05] duration-300"
           />
         </div>
       </ImageReveal>

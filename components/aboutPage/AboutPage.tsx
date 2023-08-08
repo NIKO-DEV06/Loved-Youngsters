@@ -1,9 +1,11 @@
 import AboutHero from "./AboutHero";
+import FounderSection from "./FounderSection";
 
 const AboutPage = () => {
   return (
-    <section>
+    <section className=" overflow-x-hidden">
       <AboutHero />
+      <FounderSection />
     </section>
   );
 };

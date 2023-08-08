@@ -124,12 +124,12 @@ const Footer = () => {
               </Reveal>
               <Reveal y={80}>
                 <div className="relative w-fit group h-[2rem] overflow-hidden font-sofia-extralight hover:font-sofia duration-300 translate-x[0.7rem] pl-[0.7rem]">
-                  <Link href={""} className=" flex flex-col gap-[rem]">
-                    <p className="md:group-hover:translate-y-[-1.7rem] duration-[450ms] transform ease-in-out">
-                      Twitter
+                  <Link href={"/contact"} className=" flex flex-col gap-[rem]">
+                    <p className="md:group-hover:translate-y-[-1.9rem] duration-[450ms] transform ease-in-out">
+                      Message
                     </p>
                     <p className="group-hover:translate-y-[-2.1rem] duration-[450ms] transform ease-in-out">
-                      Twitter
+                      Message
                     </p>
                   </Link>
                 </div>
@@ -156,7 +156,7 @@ const Footer = () => {
                     }
                     className=" flex flex-col gap-[rem]"
                   >
-                    <p className=" md:group-hover:translate-y-[-1.7rem] duration-[450ms] transform ease-in-out">
+                    <p className=" md:group-hover:translate-y-[-1.9rem] duration-[450ms] transform ease-in-out">
                       Instagram
                     </p>
                     <p className="group-hover:translate-y-[-2.1rem] duration-[450ms] transform ease-in-out">

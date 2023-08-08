@@ -7,9 +7,9 @@ import { ImageReveal } from "../utils/ImageReveal";
 
 const Founder = () => {
   return (
-    <section className="min-h-screen bg-[#94edfc] pt-[5rem] px-[1.5rem] flex flex-col md:flex-row md:justify-center md:items-center md:gap-[3rem] lg:gap-[5rem] relative">
+    <section className="min-h-screen border-b-[1.5px] border-black bg-[#94edfc] pt-[5rem] px-[1.5rem] flex flex-col md:flex-row md:justify-center md:items-center md:gap-[3rem] lg:gap-[5rem] relative">
       <ImageReveal>
-        <div className="border-2 rounded-2xl border-[#fff] w-fit h-fit overflow-hidden">
+        <div className="border-2 rounded-2xl border-[#000000] w-fit h-fit overflow-hidden">
           <Image
             src={herofounder}
             alt="founder"
@@ -37,7 +37,7 @@ const Founder = () => {
         </Reveal>
         <Reveal y={100}>
           <Link
-            href={"/"}
+            href={"/about"}
             className="group flex flex-col justify-center items-center mt-[2rem] w-fit ml-[1rem] md:ml-0"
           >
             <p className="uppercase tracking-widest duration-200 text-[0.8rem] md:text-[0.7rem] font-medium group-hover:font-bold">

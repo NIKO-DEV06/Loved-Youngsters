@@ -8,7 +8,7 @@ import { Reveal } from "../utils/Reveal";
 
 const Showcase = () => {
   return (
-    <section className="min-h-screen bg-[#35e1ff] px-[1.5rem] pt-[6rem] pb-[10rem]">
+    <section className="min-h-screen border-b-[1.5px] border-black bg-[#35e1ff] px-[1.5rem] pt-[6rem] pb-[10rem]">
       <ImageReveal>
         <div className="flex relative md:px-[2rem] lg:px-[7rem]">
           <Image
@@ -16,14 +16,14 @@ const Showcase = () => {
             alt="showcase"
             width={250}
             height={300}
-            className="border-2 rounded-lg md:w-[350px] md:rounded-sm"
+            className="border-2 rounded-2xl border-black md:w-[350px] md:rounded-2xl"
           />
           <Image
             src={showcase2}
             alt="showcase"
             width={250}
             height={100}
-            className="absolute bottom-0 right-0 translate-y-[5rem] border-2 rounded-lg md:w-[450px] md:right-[2rem] lg:right-[7rem] md:rounded-sm"
+            className="absolute bottom-0 right-0 translate-y-[5rem] border-2 border-black rounded-2xl md:w-[450px] md:right-[2rem] lg:right-[7rem] md:rounded-2xl"
           />
         </div>
       </ImageReveal>
@@ -40,14 +40,14 @@ const Showcase = () => {
             alt="showcase"
             width={250}
             height={300}
-            className="border-2 rounded-lg md:w-[350px] md:rounded-sm"
+            className="border-2 rounded-2xl border-black md:w-[350px]"
           />
           <Image
             src={showcase3}
             alt="showcase"
             width={250}
             height={100}
-            className="absolute bottom-0 md:top-0 right-0 translate-y-[5rem] border-2 rounded-lg md:w-[450px] md:left-[2rem] lg:left-[7rem] md:rounded-sm"
+            className="absolute bottom-0 md:top-0 right-0 translate-y-[5rem] border-2 rounded-2xl border-black md:w-[450px] md:left-[2rem] lg:left-[7rem] "
           />
         </div>
       </ImageReveal>

@@ -6,7 +6,7 @@ import logo from "@/assets/logo.png";
 import youtube from "@/assets/youtube.svg";
 import facebook from "@/assets/facebook.svg";
 import instagram from "@/assets/instagram.svg";
-import twitter from "@/assets/twitter.svg";
+import message from "@/assets/message.svg";
 import { ImageReveal } from "../utils/ImageReveal";
 import { Reveal } from "../utils/Reveal";
 
@@ -78,7 +78,7 @@ const Footer = () => {
               </Link>
               <Link href={""}>
                 <ImageReveal>
-                  <Image src={twitter} alt="twitter" width={25} height={25} />
+                  <Image src={message} alt="message" width={25} height={25} />
                 </ImageReveal>
               </Link>
             </div>

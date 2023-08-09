@@ -17,7 +17,7 @@ const AboutHero = () => {
           <Reveal y={150}>
             <p className="text-[1.9rem] lg:text-[2.5rem] font-louize-medium md:font-louize text-center mt-[2rem] px-[3rem] md:mx-auto ">
               Empowering the Next Generation by{" "}
-              <span className="font-louize-mediumitalic font-semibold">
+              <span className="font-louiz-mediumitalic font-semibold">
                 Nurturing and Strengthening
               </span>{" "}
               the Core of Faith in{" "}

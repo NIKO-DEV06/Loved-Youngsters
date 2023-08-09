@@ -19,6 +19,7 @@ module.exports = {
         louize: ["Louize", "sans-serif"],
         "louize-medium": ["Louize-Medium", "sans-serif"],
         "louize-mediumitalic": ["Louize-Medium-Italic", "sans-serif"],
+        "louize-Bold": ["Louize-Bold", "sans-serif"],
       },
     },
   },

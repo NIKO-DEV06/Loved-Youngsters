@@ -20,9 +20,6 @@ const Footer = () => {
       <footer className="bg-[#94edfc] font-louize-medium grid place-items-center lg:block min-h-[68vh] text-black pb-[4rem]">
         <div className=" mx-auto lg:mx-0 lg:px-[6rem] pt-[2rem]">
           <ImageReveal>
-            {/* <h1 className="font-louize-mediumitalic text-[3rem] font-bold">
-                  Loved Youngsters
-                </h1> */}
             <Image
               src={logo}
               width={200}

@@ -52,7 +52,7 @@ const ContactPage = () => {
   };
 
   return (
-    <section className=" min-h-screen pt-[8rem] md:pt-[3rem]">
+    <section className=" min-h-screen py-[8rem] md:pt-[3rem] bg-[#35e1ff]">
       <form
         id="contact-form"
         onSubmit={handleSubmit(submitFormHandler)}
@@ -89,7 +89,7 @@ const ContactPage = () => {
               variants={variants}
               className="flex flex-col gap-[0.4rem]"
             >
-              <p className="font-[500] tracking-wider lg:text-[1.1rem]">
+              <p className="tracking-wider lg:text-[1.2rem] font-louize-Bold font-bold">
                 Your Name
               </p>
               <input
@@ -114,7 +114,7 @@ const ContactPage = () => {
               variants={variants}
               className="flex flex-col gap-[0.4rem]"
             >
-              <p className="font-[500] tracking-wider lg:text-[1.1rem]">
+              <p className="tracking-wider lg:text-[1.2rem] font-louize-Bold font-bold">
                 Your Number
               </p>
               <input
@@ -122,7 +122,11 @@ const ContactPage = () => {
                 placeholder="e.g. +2347012345678"
                 type="number"
                 name="number"
-                className="inputs"
+                className={`inputs ${
+                  errors.number?.message
+                    ? "border-[#ff0000] focus:border-[#ff0000]"
+                    : "border-black focus:border-black"
+                }`}
               />
               <p className="text-[#ff0000] font-[500] text-sm text-left pt-1">
                 {errors.number?.message}
@@ -137,7 +141,7 @@ const ContactPage = () => {
               variants={variants}
               className="flex flex-col gap-[0.4rem]"
             >
-              <p className="font-[500] tracking-wider lg:text-[1.1rem]">
+              <p className="tracking-wider lg:text-[1.2rem] font-louize-Bold font-bold">
                 Message
               </p>
               <textarea
@@ -147,8 +151,11 @@ const ContactPage = () => {
                 rows={10}
                 autoComplete="off"
                 placeholder="Type your message here.."
-                className={`outline-none border-[1px] focus:border-black 
-           h-[15rem] w-[21rem] md:w-[43rem] lg:w-[55rem] rounded-none appearance-none resize-none px-4 py-3 text-[0.95rem] lg:text-[1rem]`}
+                className={`outline-none ${
+                  errors.message?.message
+                    ? "border-[#ff0000] focus:border-[#ff0000]"
+                    : "border-black focus:border-black"
+                } border-[1.8px] bg-transparent placeholder:text-black h-[15rem] w-[21rem] md:w-[43rem] lg:w-[55rem] rounded-none appearance-none resize-none px-4 py-3 text-[0.95rem] lg:text-[1rem]`}
               />
               <p className="text-[#ff0000] font-[500] text-sm text-center">
                 {errors.message?.message}
@@ -163,7 +170,7 @@ const ContactPage = () => {
               transition={{ duration: 0 }}
               variants={variants}
               disabled={isSending}
-              className={`group flex justify-center items-center gap-[0.5rem] bg-black text-white w-[21rem] lg:w-[27rem] p-[0.65rem] mt-[1rem] tracking-widest md:hover:bg-[#b3bdc2] md:hover:text-black duration-200 ${
+              className={`group flex justify-center items-center gap-[0.5rem] bg-black text-white w-[21rem] lg:w-[27rem] p-[0.65rem] mt-[1rem] tracking-widest md:hover:bg-[#94edfc] md:hover:text-black duration-200 border-[1.8px] border-black ${
                 isSending ? "opacity-50" : ""
               }`}
             >

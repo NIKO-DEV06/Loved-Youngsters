@@ -10,6 +10,7 @@ import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 import contact from "@/assets/contact.png";
 import { ImageReveal } from "../utils/ImageReveal";
+import { Reveal } from "../utils/Reveal";
 
 const ContactPage = () => {
   const [isSending, setIsSending] = useState(false);
@@ -194,9 +195,11 @@ const ContactPage = () => {
             </div>
           </div>
         </form>
-        <p className="text-center text-[0.9rem] px-[2rem] mt-[2rem] opacity-60">
-          Your information is safe with us. Confidentiality guaranteed
-        </p>
+        <Reveal y={80} width="100%">
+          <p className="text-center text-[0.9rem] px-[2rem] mt-[2rem] opacity-60">
+            Your information is safe with us. Confidentiality guaranteed
+          </p>
+        </Reveal>
       </section>
     </>
   );

@@ -181,7 +181,7 @@ const ContactPage = () => {
             </motion.button>
           </div>
         </div>
-        <p>* Your information is safe with us. Confidentiality guaranteed.</p>
+        {/* <p>* Your information is safe with us. Confidentiality guaranteed.</p> */}
       </form>
     </section>
   );

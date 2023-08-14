@@ -5,6 +5,8 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import emailjs from "@emailjs/browser";
+import toast, { Toaster } from "react-hot-toast";
 
 const ContactPage = () => {
   const [isSending, setIsSending] = useState(false);
@@ -34,25 +36,26 @@ const ContactPage = () => {
   });
 
   const submitFormHandler = async (data: any) => {
-    // setIsSending(true);
-    // try {
-    //   const response = await emailjs.sendForm(
-    //     process.env.NEXT_SERVICE_ID,
-    //     process.env.NEXT_TEMPLATE_ID,
-    //     "#contact-form",
-    //     process.env.NEXT_KEY_ID
-    //   );
-    //   reset();
-    //   setIsSending(false);
-    //   toast.success("Message Sent!");
-    // } catch (error) {
-    //   setIsSending(false);
-    //   toast.error("Message failed to send");
-    // }
+    setIsSending(true);
+    try {
+      const response = await emailjs.sendForm(
+        process.env.NEXT_SERVICE_ID ?? "",
+        process.env.NEXT_TEMPLATE_ID ?? "",
+        "#contact-form",
+        process.env.NEXT_KEY_ID ?? ""
+      );
+      reset();
+      setIsSending(false);
+      toast.success("Message Sent!");
+    } catch (error) {
+      setIsSending(false);
+      toast.error("Message failed to send");
+    }
   };
 
   return (
     <section className=" min-h-screen py-[8rem] md:pt-[3rem] bg-[#35e1ff]">
+      <Toaster position="top-center" reverseOrder={false} />
       <form
         id="contact-form"
         onSubmit={handleSubmit(submitFormHandler)}
@@ -178,6 +181,7 @@ const ContactPage = () => {
             </motion.button>
           </div>
         </div>
+        <p>* Your information is safe with us. Confidentiality guaranteed.</p>
       </form>
     </section>
   );

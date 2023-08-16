@@ -1,3 +1,4 @@
+import GetInTouch from "../shared/GetInTouch";
 import AboutHero from "./AboutHero";
 import FounderSection from "./FounderSection";
 import Values from "./Values";
@@ -10,6 +11,7 @@ const AboutPage = () => {
       <FounderSection />
       <Vision />
       <Values />
+      <GetInTouch />
     </section>
   );
 };

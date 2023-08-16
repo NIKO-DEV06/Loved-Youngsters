@@ -114,7 +114,7 @@ const ContactPage = () => {
                   {...register("name")}
                   name="name"
                   autoComplete="off"
-                  className={`inputs ${
+                  className={`inputs placeholder:opacity-50 ${
                     errors.name?.message
                       ? "border-[#ff0000] focus:border-[#ff0000]"
                       : "border-black focus:border-black"
@@ -138,7 +138,7 @@ const ContactPage = () => {
                   placeholder="e.g. +2347012345678"
                   type="number"
                   name="number"
-                  className={`inputs ${
+                  className={`inputs placeholder:opacity-50 ${
                     errors.number?.message
                       ? "border-[#ff0000] focus:border-[#ff0000]"
                       : "border-black focus:border-black"
@@ -171,7 +171,7 @@ const ContactPage = () => {
                     errors.message?.message
                       ? "border-[#ff0000] focus:border-[#ff0000]"
                       : "border-black focus:border-black"
-                  } border-[1.8px] bg-transparent placeholder:text-black h-[15rem] w-[21rem] md:w-[43rem] lg:w-[55rem] rounded-none appearance-none resize-none px-4 py-3 text-[0.95rem] lg:text-[1rem]`}
+                  } border-[1.8px] bg-transparent placeholder:text-black h-[15rem] w-[21rem] md:w-[43rem] lg:w-[55rem] rounded-none appearance-none resize-none px-4 py-3 placeholder:opacity-50 text-[0.95rem] lg:text-[1rem]`}
                 />
                 <p className="text-[#ff0000] font-[500] text-sm text-center">
                   {errors.message?.message}

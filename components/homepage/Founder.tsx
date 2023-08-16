@@ -7,7 +7,7 @@ import { ImageReveal } from "../utils/ImageReveal";
 
 const Founder = () => {
   return (
-    <section className="min-h-screen border-b-[1.5px] border-black bg-[#94edfc] pt-[5rem] px-[1.5rem] flex flex-col md:flex-row md:justify-center md:items-center md:gap-[3rem] lg:gap-[5rem] relative">
+    <section className="min-h-screen border-b-[1.5px] border-black bg-[#94edfc] pt-[5rem] px-[1.5rem] flex flex-col md:flex-row md:justify-center md:items-center md:gap-[3rem] lg:gap-[5rem] relative pb-[3rem]">
       <ImageReveal>
         <div className="border-2 rounded-2xl border-[#000000] w-fit h-fit overflow-hidden">
           <Image

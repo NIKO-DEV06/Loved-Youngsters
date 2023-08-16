@@ -7,7 +7,7 @@ import { ImageReveal } from "../utils/ImageReveal";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen pt[9.5rem] md:pt[15rem] relative pb-[4rem] overflow-x-hidden">
+    <section className="min-h-screen pt[9.5rem] md:pt[15rem] relative pb-[4rem] overflowx-hidden">
       <div className="absolute translate-y-[-3rem] right-0 md:right-[300px] z-0 blur-sm">
         <ImageReveal>
           <Image

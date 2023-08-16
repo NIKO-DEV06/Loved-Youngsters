@@ -55,6 +55,23 @@ const Testimonials = () => {
           </div>
         ))}
       </div>
+      <Reveal y={80} width="100%">
+        <h1 className=" font-louize-Bold italic text-[2.5rem] uppecase tracking-wide underline text-center mt-[2.5rem] md:mt-[6rem]">
+          Parent Testimonial
+        </h1>
+      </Reveal>
+      <ImageReveal>
+        <div className="border-2 border-black w-fit mx-auto  md:mx-4rem] mt-[3rem]">
+          <video
+            src="/parent.mp4"
+            autoPlay
+            playsInline
+            controls
+            // poster="/thumbnail.png"
+            className="h-[500px] mx-auto "
+          ></video>
+        </div>
+      </ImageReveal>
     </section>
   );
 };

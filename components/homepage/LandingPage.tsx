@@ -6,7 +6,7 @@ import Showcase from "./Showcase";
 
 const LandingPage = () => {
   return (
-    <section className="bg-[#94edfc] min-h-screen pt-[11.5rem] md:pt-[5rem] overflow-x-hidden border-b-[1.5px] border-b-black">
+    <section className="bg-[#94edfc bg-[#35e1ff] min-h-screen pt-[11.5rem] md:pt-[5rem] overflow-x-hidden border-b-[1.5px] border-b-black">
       <Hero />
       <AboutSection />
       <Founder />

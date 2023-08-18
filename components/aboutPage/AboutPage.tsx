@@ -6,7 +6,7 @@ import Vision from "./Vision";
 
 const AboutPage = () => {
   return (
-    <section className="overflow-x-hidden border-b-[1.5px] border-b-black">
+    <section className="overflow-x-hidden border-b-[1.5px]  border-b-black">
       <AboutHero />
       <FounderSection />
       <Vision />

@@ -4,7 +4,7 @@ const ProductsPage = () => {
   return (
     <section className="min-h-screen">
       <div>
-        <div></div>
+        <div>Products</div>
       </div>
     </section>
   );

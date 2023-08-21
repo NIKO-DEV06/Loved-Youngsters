@@ -117,6 +117,7 @@ const ProductsPage = () => {
               <Image
                 src={devSlides[currentIndex].url}
                 alt="ly-devotional"
+                loading="lazy"
                 className="w-[350px] h-[400px] object-cover object-top"
               />
               <Image
@@ -157,8 +158,9 @@ const ProductsPage = () => {
             <div className="flex flex-col items-center justify-center w-[330px] border-[1.5px] border-black relative">
               <Image
                 src={mmaSlides[mmaIndex].url}
+                loading="lazy"
                 alt="ly-devotional"
-                className="w-[350px] h-[400px] object-cover object-top"
+                className="w-[350px] h-[400px] object-top"
               />
               <Image
                 onClick={prevSlideMma}
@@ -200,6 +202,7 @@ const ProductsPage = () => {
             <div className="flex flex-col items-center justify-center w-[330px] border-[1.5px] border-black relative">
               <Image
                 src={mapSlides[mapIndex].url}
+                loading="lazy"
                 alt="ly-devotional"
                 className="w-[350px] h-[400px] object-cover object-top"
               />
@@ -242,6 +245,7 @@ const ProductsPage = () => {
             <div className="flex flex-col items-center justify-center w-[330px] border-[1.5px] border-black relative">
               <Image
                 src={decSlides[decIndex].url}
+                loading="lazy"
                 alt="ly-devotional"
                 className="w-[350px] h-[400px] object-cover object-top"
               />

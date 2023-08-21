@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { motion } from "framer-motion";
 import { useSlideIndex } from "@/hooks/useSlideIndex";
 import dev1 from "@/assets/dev1.png";
 import dev2 from "@/assets/dev2.png";
@@ -120,20 +121,24 @@ const ProductsPage = () => {
                 loading="lazy"
                 className="w-[350px] h-[400px] object-cover object-top"
               />
-              <Image
-                onClick={prevSlide}
-                src={arrow}
-                width={50}
-                alt="arrow"
-                className="absolute left-0 top-[28%] cursor-pointer md:hover:scale-[1.08] duration-200 rotate-180"
-              />
-              <Image
-                onClick={nextSlide}
-                src={arrow}
-                width={50}
-                alt="arrow"
-                className="absolute right-0 top-[28%] cursor-pointer md:hover:scale-[1.08] duration-200"
-              />
+              <motion.div
+                whileTap={{ scale: 0.8 }}
+                className="absolute left-0 top-[28%] cursor-pointer duration-100 "
+              >
+                <Image
+                  className="rotate-180"
+                  onClick={prevSlide}
+                  src={arrow}
+                  width={50}
+                  alt="arrow"
+                />
+              </motion.div>
+              <motion.div
+                whileTap={{ scale: 0.8 }}
+                className="absolute right-0 top-[28%] cursor-pointer duration-100 "
+              >
+                <Image onClick={nextSlide} src={arrow} width={50} alt="arrow" />
+              </motion.div>
 
               <div className="border-t-[1.5px] h-[300px] border-black pt-[2rem] pb-[4rem] px-[1rem]">
                 <p className=" font-louize-Bold text-[1.3rem] uppercase tracking-wider mb-[1rem]">
@@ -144,7 +149,7 @@ const ProductsPage = () => {
                   Gospel and the love of God to teenagers.
                 </p>
                 <Link
-                  href={"https://selar.co/m/lovedyoungsters"}
+                  href={"/"}
                   className="underline text-[0.9rem] tracking-wider hover:font-medium duration-200"
                 >
                   GET NOW
@@ -162,20 +167,29 @@ const ProductsPage = () => {
                 alt="ly-devotional"
                 className="w-[350px] h-[400px] object-top"
               />
-              <Image
-                onClick={prevSlideMma}
-                src={arrow}
-                width={50}
-                alt="arrow"
-                className="absolute left-0 top-[28%] cursor-pointer md:hover:scale-[1.08] duration-200 rotate-180"
-              />
-              <Image
-                onClick={nextSlideMma}
-                src={arrow}
-                width={50}
-                alt="arrow"
-                className="absolute right-0 top-[28%] cursor-pointer md:hover:scale-[1.08] duration-200"
-              />
+              <motion.div
+                whileTap={{ scale: 0.8 }}
+                className="absolute left-0 top-[28%] cursor-pointer duration-100 "
+              >
+                <Image
+                  className="rotate-180"
+                  onClick={prevSlideMma}
+                  src={arrow}
+                  width={50}
+                  alt="arrow"
+                />
+              </motion.div>
+              <motion.div
+                whileTap={{ scale: 0.8 }}
+                className="absolute right-0 top-[28%] cursor-pointer duration-100 "
+              >
+                <Image
+                  onClick={nextSlideMma}
+                  src={arrow}
+                  width={50}
+                  alt="arrow"
+                />
+              </motion.div>
 
               <div className="border-t-[1.5px] h-[300px] border-black pt-[2rem] pb-[4rem] px-[1rem]">
                 <p className=" font-louize-Bold text-[1.3rem] uppercase tracking-wider mb-[1rem]">
@@ -206,20 +220,29 @@ const ProductsPage = () => {
                 alt="ly-devotional"
                 className="w-[350px] h-[400px] object-cover object-top"
               />
-              <Image
-                onClick={prevSlideMap}
-                src={arrow}
-                width={50}
-                alt="arrow"
-                className="absolute left-0 top-[28%] cursor-pointer md:hover:scale-[1.08] duration-200 rotate-180"
-              />
-              <Image
-                onClick={nextSlideMap}
-                src={arrow}
-                width={50}
-                alt="arrow"
-                className="absolute right-0 top-[28%] cursor-pointer md:hover:scale-[1.08] duration-200"
-              />
+              <motion.div
+                whileTap={{ scale: 0.8 }}
+                className="absolute left-0 top-[28%] cursor-pointer duration-100 "
+              >
+                <Image
+                  className="rotate-180"
+                  onClick={prevSlideMap}
+                  src={arrow}
+                  width={50}
+                  alt="arrow"
+                />
+              </motion.div>
+              <motion.div
+                whileTap={{ scale: 0.8 }}
+                className="absolute right-0 top-[28%] cursor-pointer duration-100 "
+              >
+                <Image
+                  onClick={nextSlideMap}
+                  src={arrow}
+                  width={50}
+                  alt="arrow"
+                />
+              </motion.div>
 
               <div className="border-t-[1.5px] h-[300px] border-black pt-[2rem] pb-[4rem] px-[1rem]">
                 <p className=" font-louize-Bold text-[1.3rem] uppercase tracking-wider mb-[1rem]">
@@ -231,7 +254,7 @@ const ProductsPage = () => {
                   their faith.
                 </p>
                 <Link
-                  href={"https://selar.co/m/lovedyoungsters"}
+                  href={"/"}
                   className="underline text-[0.9rem] tracking-wider hover:font-medium duration-200"
                 >
                   JOIN MAPS
@@ -249,20 +272,29 @@ const ProductsPage = () => {
                 alt="ly-devotional"
                 className="w-[350px] h-[400px] object-cover object-top"
               />
-              <Image
-                onClick={prevSlideDec}
-                src={arrow}
-                width={50}
-                alt="arrow"
-                className="absolute left-0 top-[28%] cursor-pointer md:hover:scale-[1.08] duration-200 rotate-180"
-              />
-              <Image
-                onClick={nextSlideDec}
-                src={arrow}
-                width={50}
-                alt="arrow"
-                className="absolute right-0 top-[28%] cursor-pointer md:hover:scale-[1.08] duration-200"
-              />
+              <motion.div
+                whileTap={{ scale: 0.8 }}
+                className="absolute left-0 top-[28%] cursor-pointer duration-100 "
+              >
+                <Image
+                  className="rotate-180"
+                  onClick={prevSlideDec}
+                  src={arrow}
+                  width={50}
+                  alt="arrow"
+                />
+              </motion.div>
+              <motion.div
+                whileTap={{ scale: 0.8 }}
+                className="absolute right-0 top-[28%] cursor-pointer duration-100 "
+              >
+                <Image
+                  onClick={nextSlideDec}
+                  src={arrow}
+                  width={50}
+                  alt="arrow"
+                />
+              </motion.div>
 
               <div className="border-t-[1.5px] h-[300px] border-black pt-[2rem] pb-[4rem] px-[1rem]">
                 <p className=" font-louize-Bold text-[1.3rem] uppercase tracking-wider mb-[1rem]">
@@ -274,7 +306,7 @@ const ProductsPage = () => {
                   and all aspects of their life.
                 </p>
                 <Link
-                  href={"https://selar.co/m/lovedyoungsters"}
+                  href={"/"}
                   className="underline text-[0.9rem] tracking-wider hover:font-medium duration-200"
                 >
                   JOIN DEC.CAMP

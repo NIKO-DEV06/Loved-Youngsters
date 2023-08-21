@@ -11,6 +11,7 @@ import toast, { Toaster } from "react-hot-toast";
 import contact from "@/assets/contact.png";
 import { ImageReveal } from "../utils/ImageReveal";
 import { Reveal } from "../utils/Reveal";
+import Community from "../shared/Community";
 
 const ContactPage = () => {
   const [isSending, setIsSending] = useState(false);
@@ -59,7 +60,7 @@ const ContactPage = () => {
 
   return (
     <>
-      <section className=" min-h-screen py-[8rem] md:pt-[3rem] bg-[#35e1ff]">
+      <section className=" min-h-screen py-[8rem] md:pt-[3rem] bg-[#35e1ff] border-b-[1.5px] border-black">
         <Toaster position="top-center" reverseOrder={false} />
         <ImageReveal>
           <Image
@@ -201,6 +202,7 @@ const ContactPage = () => {
           </p>
         </Reveal>
       </section>
+      <Community />
     </>
   );
 };

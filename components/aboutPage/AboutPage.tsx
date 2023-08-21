@@ -1,3 +1,4 @@
+import Community from "../shared/Community";
 import GetInTouch from "../shared/GetInTouch";
 import AboutHero from "./AboutHero";
 import FounderSection from "./FounderSection";
@@ -11,6 +12,7 @@ const AboutPage = () => {
       <FounderSection />
       <Vision />
       <Values />
+      <Community />
       <GetInTouch />
     </section>
   );

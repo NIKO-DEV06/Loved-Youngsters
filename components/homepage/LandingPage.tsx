@@ -3,6 +3,7 @@ import Founder from "./Founder";
 import GetInTouch from "../shared/GetInTouch";
 import Hero from "./Hero";
 import Showcase from "./Showcase";
+import Community from "../shared/Community";
 
 const LandingPage = () => {
   return (
@@ -11,6 +12,7 @@ const LandingPage = () => {
       <AboutSection />
       <Founder />
       <Showcase />
+      <Community />
       <GetInTouch />
     </section>
   );

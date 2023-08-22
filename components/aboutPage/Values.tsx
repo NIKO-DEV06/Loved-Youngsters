@@ -31,13 +31,11 @@ const Values = () => {
             </Reveal>
             <Reveal y={150} width="100%">
               <p className="italic lg:text-[0.9rem]">
-                <span className="font-semibold">
-                  TO RAISE TEENAGERS WHO ARE :
-                </span>{" "}
+                <span className="font-semibold">TO RAISE TEENAGERS WHO :</span>{" "}
                 <br />
-                ~ Immersed fully into the love of Christ
+                ~ Are immersed fully into the love of Christ
                 <br />
-                ~ Indoctrinated into the teachings of the Christian Faith
+                ~ Are indoctrinated into the teachings of the Christian Faith
                 <br /> ~ Understand Intimacy with God
               </p>
             </Reveal>

@@ -49,7 +49,7 @@ const Testimonials = () => {
                 src={testimonial.img}
                 width={500}
                 alt="abouthero"
-                className="mx-auto border-2 border-black rounded2xl w-[400px] h-[400px] lg:w-[500px] lg:h-[500px] object-cover object-top rounded-full bg-contain"
+                className="mx-auto border-2 grayscale hover:grayscale-0 duration-200 cursor-pointer border-black rounded2xl w-[400px] h-[400px] lg:w-[500px] lg:h-[500px] object-cover object-top rounded-full bg-contain"
               />
             </ImageReveal>
           </div>
@@ -60,18 +60,39 @@ const Testimonials = () => {
           Parent Testimonial
         </h1>
       </Reveal>
-      <ImageReveal>
-        <div className="border-2 border-black w-fit mx-auto  md:mx-4rem] mt-[3rem]">
+      {/* <ImageReveal> */}
+      <div className="flex flex-col lg:flex-row gap-[2rem] px-[3rem]">
+        <div className="border2 borderblack w-fit mx-auto  md:mx-4rem] mt-[3rem]">
           <video
-            src="/parent.mp4"
-            autoPlay
+            src="/parent2.mp4"
             playsInline
             controls
             // poster="/thumbnail.png"
-            className="h-[500px] mx-auto "
+            className="h-[400px] mx-auto grayscale"
           ></video>
         </div>
-      </ImageReveal>
+        <div className="border2 borderblack w-fit h-fit mx-auto  md:mx-4rem] mt-[3rem]">
+          <video
+            src="/parent.mp4"
+            playsInline
+            controls
+            // poster="/thumbnail.png"
+            className="h-[400px] mx-auto grayscale"
+          ></video>
+        </div>
+      </div>
+      <div className="px-[3rem]">
+        <div className="border2 mx-auto borderblack w-fit mt-[3rem]">
+          <video
+            src="/parent3.mp4"
+            playsInline
+            controls
+            // poster="/thumbnail.png"
+            className="h-[400px] mx-auto grayscale"
+          ></video>
+        </div>
+      </div>
+      {/* </ImageReveal> */}
     </section>
   );
 };

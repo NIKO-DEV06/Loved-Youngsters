@@ -16,7 +16,7 @@ const JourneyHero = () => {
           </Reveal>
           <Reveal y={150}>
             <p className="text-[1.5rem] lg:text-[2.2rem] font-louize-medium md:font-louize text-center mt-[2rem] px-[3rem] md:mx-auto ">
-              Over the last 8 months, we have{" "}
+              Over the last 12 months, we have{" "}
               <span className=" font-semibold font-louize-mediumitalic">
                 discipled teenagers{" "}
               </span>

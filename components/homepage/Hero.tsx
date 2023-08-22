@@ -39,15 +39,15 @@ const Hero = () => {
           </p>
         </Reveal>
 
-        <Reveal y={100}>
+        <Reveal y={100} width="100%">
           <p className="text-[1.9rem] md:text-[3rem] font-louize-medium md:font-louize text-center mt-[2rem] px-[1rem] md:w-[50%] md:mx-auto">
-            We create personalized{" "}
+            A family of{" "}
             <span className="font-louize-mediumitalic font-semibold">
-              projects, devotionals and products
+              love bonded
             </span>{" "}
-            that edify and solidify the faith of{" "}
+            by the love of{" "}
             <span className="font-louize-mediumitalic font-semibold">
-              Christian teenagers
+              Christ
             </span>
             .
           </p>

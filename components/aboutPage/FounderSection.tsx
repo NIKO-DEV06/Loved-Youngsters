@@ -8,13 +8,13 @@ import { ImageReveal } from "../utils/ImageReveal";
 
 const FounderSection = () => {
   return (
-    <section className="min-h-screen border-y-[1.5px] border-black bg-[#35e1ff] mt-[5rem] flex flex-col pb-[6rem]">
+    <section className="min-h-screen bg-[#35e1ff] mt-[5rem] flex flex-col pb-[6rem]">
       <div className="flex flex-col md:flex-row gap-[2rem] lg:gap-[5rem] px-[1.5rem] lg:px-[8rem] justify-center items-center pt-[5rem]">
         <Image
           src={founder1}
           alt="founder1"
           width={350}
-          className="h-[400px] md:h-auto object-cover md:hover:scale-[1.05] md:duration-300 cursor-pointer object-bottom border-2 border-black rounded-2xl md:w-[50%]"
+          className="h-[400px] md:h-auto object-cover md:hover:scale-[1.05] md:duration-300 cursor-pointer object-bottom  rounded-2xl md:w-[50%]"
         />
 
         <div className="">
@@ -50,7 +50,7 @@ const FounderSection = () => {
           src={founder2}
           alt="founder1"
           width={350}
-          className="h-[400px] md:h-auto md:hover:scale-[1.05] cursor-pointer md:duration-300 object-cover object-bottom border-2 border-black rounded-2xl md:w-[50%]"
+          className="h-[400px] md:h-auto md:hover:scale-[1.05] cursor-pointer md:duration-300 object-cover object-bottom  rounded-2xl md:w-[50%]"
         />
         <Reveal y={200}>
           <p className="text-[0.9rem] leading-[1.8rem]">
@@ -74,7 +74,7 @@ const FounderSection = () => {
           src={founder3}
           alt="founder1"
           width={350}
-          className="h-[400px] md:h-auto object-cover cursor-pointer md:hover:scale-[1.05] md:duration-300 object-bottom border-2 border-black rounded-2xl md:w-[50%]"
+          className="h-[400px] md:h-auto object-cover cursor-pointer md:hover:scale-[1.05] md:duration-300 object-bottom  rounded-2xl md:w-[50%]"
         />
         <Reveal y={200}>
           <p className="text-[0.9rem] leading-[1.8rem]">
@@ -102,7 +102,7 @@ const FounderSection = () => {
           src={founder4}
           alt="founder1"
           width={350}
-          className="h-[400px] md:h-auto md:hover:scale-[1.05] cursor-pointer md:duration-300 object-cover  object-bottom border-2 border-black rounded-2xl md:w-[50%]"
+          className="h-[400px] md:h-auto md:hover:scale-[1.05] cursor-pointer md:duration-300 object-cover  object-bottom  rounded-2xl md:w-[50%]"
         />
         <Reveal y={200}>
           <p className="text-[0.9rem] leading-[1.8rem]">

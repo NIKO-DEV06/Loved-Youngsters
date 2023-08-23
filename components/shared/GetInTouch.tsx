@@ -3,7 +3,7 @@ import { Reveal } from "../utils/Reveal";
 
 const GetInTouch = () => {
   return (
-    <section className="min-h-screen bg-[#35e1ff] px-[1.5rem] border-bblack border-b[1.5px] grid place-items-center">
+    <section className="min-h-screen bg-[#35e1ff] px-[1.5rem]  grid place-items-center">
       <div className="flex flex-col items-center justify-center gap-[1rem]">
         <Reveal y={150} width="100%">
           <h1 className=" font-louize-Bold text-white text-[4rem] text-center uppercase leading-[4.5rem] lg:leading-[6.5rem] lg:text-[6rem] lg:pt-[2rem] lg:w-[50%] lg:mx-auto">

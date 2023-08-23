@@ -5,7 +5,7 @@ import { ImageReveal } from "../utils/ImageReveal";
 
 const Vision = () => {
   return (
-    <section className="min-h-[70vh] border-b-[1.5px] border-b-black md:min-h-[90vh] flex flex-col justify-center items-center px-[1.5rem] relative">
+    <section className="min-h-[70vh] md:min-h-[90vh] flex flex-col justify-center items-center px-[1.5rem] relative">
       <Image
         src={visionsvg}
         width={50}

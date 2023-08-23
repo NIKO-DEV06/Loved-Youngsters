@@ -2,6 +2,7 @@ import { Reveal } from "../utils/Reveal";
 import { ImageReveal } from "../utils/ImageReveal";
 import Image from "next/image";
 import contribute from "@/assets/sad.png";
+import contribute2 from "@/assets/new.png";
 
 const ContributeHero = () => {
   return (
@@ -10,7 +11,7 @@ const ContributeHero = () => {
         <div className="mb-[3rem] md:w-[50%]">
           <Reveal y={80} width="100%">
             <p className="uppercase text-center text-[0.8rem] md:text-[0.7rem] tracking-widest font-medium underline">
-              Contribut to Loved Youngsters
+              Contribute to Loved Youngsters
             </p>
           </Reveal>
           <Reveal y={150}>
@@ -25,7 +26,7 @@ const ContributeHero = () => {
             src={contribute}
             width={500}
             alt="abouthero"
-            className="mx-auto border-2 border-black rounded-2xl h-[350px] md:h-auto object-cover"
+            className="mx-auto rounded-2xl h-[350px] md:h-auto object-cover"
           />
         </ImageReveal>
       </section>
@@ -57,6 +58,14 @@ const ContributeHero = () => {
           <b>--</b>And is struggling with a prayer altar and word life
         </p>
       </div>
+      <ImageReveal>
+        <Image
+          src={contribute2}
+          width={500}
+          alt="abouthero"
+          className="mx-auto rounded-2xl h-[450px] object-cover p-[2rem]"
+        />
+      </ImageReveal>
     </>
   );
 };

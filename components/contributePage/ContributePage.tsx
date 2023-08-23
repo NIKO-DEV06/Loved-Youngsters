@@ -9,9 +9,8 @@ const ContributePage = () => {
       <ContributeHero />
       <Donate />
       <Community />
-      <div className="border-b-[1.5px] border-b-black">
-        <GetInTouch />
-      </div>
+
+      <GetInTouch />
     </section>
   );
 };

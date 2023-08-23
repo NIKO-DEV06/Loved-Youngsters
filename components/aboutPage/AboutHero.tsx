@@ -33,12 +33,12 @@ const AboutHero = () => {
             src={abouthero}
             width={400}
             alt="abouthero"
-            className="mx-auto border-2 border-black rounded-2xl h-[350px] md:h-auto object-cover"
+            className="mx-auto rounded-2xl h-[350px] md:h-auto object-cover"
           />
         </ImageReveal>
       </section>
       <Reveal y={80}>
-        <div className="bg-[#35e1ff] border-y-[1.5px] border-black mt-[4rem] py-[1.5rem]">
+        <div className="bg-[#35e1ff] mt-[4rem] py-[1.5rem]">
           <Marquee gradient={false} direction="left" speed={70}>
             {Array.from({ length: 15 }, (_, index) => (
               <p

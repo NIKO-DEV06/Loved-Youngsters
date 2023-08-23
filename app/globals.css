@@ -53,3 +53,13 @@
 .floating-element {
   animation: float 3s ease-in-out infinite;
 }
+
+.swiper-container .swiper-pagination .swiper-pagination-bullet {
+  background-color: white !important;
+  opacity: 0.7 !important;
+}
+
+/* Optional: Hover effect for the bullets */
+.swiper-container .swiper-pagination .swiper-pagination-bullet:hover {
+  opacity: 1 !important;
+}

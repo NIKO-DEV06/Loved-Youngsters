@@ -4,9 +4,9 @@ import { Reveal } from "../utils/Reveal";
 const Community = () => {
   return (
     <Reveal y={300} width="100%">
-      <section className="border-b-[1.5px] border-black pb-[6rem] pt-[6rem] bg-[#94edfc]">
+      <section className="pb-[6rem] pt-[6rem] bg-[#94edfc]">
         <aside
-          className={`text-black bg-[#35e1ff] mx-[3rem] md:mx-[5rem] lg:mx-[9rem] xl:mx-[10rem] lg:py-[3rem] rounded-[1rem] border-[1px] border-black grid place-items-center`}
+          className={`text-black bg-[#35e1ff] mx-[3rem] md:mx-[5rem] lg:mx-[9rem] xl:mx-[10rem] lg:py-[3rem] rounded-[1rem] border[1px] borde-black grid place-items-center`}
         >
           <div className="pb-[2rem] lg:flex lg:justify-center lg:gap-[5rem]">
             <div className="text-center">

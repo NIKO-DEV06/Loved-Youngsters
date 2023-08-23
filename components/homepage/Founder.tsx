@@ -7,9 +7,9 @@ import { ImageReveal } from "../utils/ImageReveal";
 
 const Founder = () => {
   return (
-    <section className="min-h-screen border-b-[1.5px] border-black bg-[#94edfc] pt-[5rem] px-[1.5rem] flex flex-col md:flex-row md:justify-center md:items-center md:gap-[3rem] lg:gap-[5rem] relative pb-[3rem]">
+    <section className="min-h-screen bg-[#94edfc] pt-[5rem] px-[1.5rem] flex flex-col md:flex-row md:justify-center md:items-center md:gap-[3rem] lg:gap-[5rem] relative pb-[3rem]">
       <ImageReveal>
-        <div className="border-2 rounded-2xl border-[#000000] w-fit h-fit overflow-hidden">
+        <div className="rounded-2xl  w-fit h-fit overflow-hidden">
           <Image
             src={herofounder}
             alt="founder"
@@ -21,7 +21,7 @@ const Founder = () => {
       </ImageReveal>
       <div className="mt-[3rem] md:w-[45%]">
         <Reveal y={100}>
-          <h1 className=" font-louize-medium text-[2rem] uppecase tracking-wide lg:w-[80%] xl:w-[70%] lg:text-[2.5rem] leading-[3rem] underline">
+          <h1 className=" font-louize-medium text-[2rem] uppecase tracking-wide lg:w-[80%] xl:w-[70%] lg:text-[2.5rem] leading-[3rem]">
             Meet the dreamer{" "}
             <span className="font-louize-mediumitalic">behind</span> Loved
             Youngsters
@@ -35,23 +35,16 @@ const Founder = () => {
             adventure like no other!.{" "}
           </p>
         </Reveal>
-        <Reveal y={100}>
-          <Link
-            href={"/about"}
-            className="group flex flex-col justify-center items-center mt-[2rem] w-fit ml-[1rem] md:ml-0"
-          >
-            <p className="uppercase tracking-widest duration-200 text-[0.8rem] md:text-[0.7rem] font-medium group-hover:font-bold">
+        <div className="mt-[1.5rem]">
+          <ImageReveal>
+            <Link
+              href={"/about"}
+              className="border-[1px] hover:bg-[#35e1ff] duration-300 border-black uppercase text-[0.8rem] tracking-widest px-[0.8rem] py-[0.7rem] hover:font-semibold"
+            >
               Know More
-            </p>
-            <Image
-              src={halfsun}
-              alt="half-sun"
-              width={50}
-              height={50}
-              className="rotate-180 translate-y-[-0.5rem] duration-300 grayscale invert"
-            />
-          </Link>
-        </Reveal>
+            </Link>
+          </ImageReveal>
+        </div>
       </div>
     </section>
   );

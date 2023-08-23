@@ -6,7 +6,7 @@ import { ImageReveal } from "../utils/ImageReveal";
 
 const Testimonials = () => {
   return (
-    <section className="min-h-screen bg-[#35e1ff] pb-[8rem] lg:px-[4rem] border-y-black border-y-[1.5px]">
+    <section className="min-h-screen bg-[#35e1ff] pb-[8rem] lg:px-[4rem]">
       <Reveal y={80} width="100%">
         <h1 className=" font-louize-Bold italic text-[2.5rem] uppecase tracking-wide underline text-center mt-[2.5rem] md:mt-[6rem]">
           The Lives Impacted
@@ -49,7 +49,7 @@ const Testimonials = () => {
                 src={testimonial.img}
                 width={500}
                 alt="abouthero"
-                className="mx-auto border-2 grayscale hover:grayscale-0 duration-200 cursor-pointer border-black rounded2xl w-[400px] h-[400px] lg:w-[500px] lg:h-[500px] object-cover object-top rounded-full bg-contain"
+                className="mx-auto  grayscale hover:grayscale-0 duration-200 cursor-pointer rounded2xl w-[400px] h-[400px] lg:w-[500px] lg:h-[500px] object-cover object-top rounded-full bg-contain"
               />
             </ImageReveal>
           </div>

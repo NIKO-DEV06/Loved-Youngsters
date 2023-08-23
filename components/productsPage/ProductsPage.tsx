@@ -105,13 +105,13 @@ const ProductsPage = () => {
   };
 
   return (
-    <section className="border-b-[1.5px] bg[#35e1ff] border-black pt-[9rem] md:pt-[3rem]">
+    <section className=" bg[#35e1ff] pt-[9rem] md:pt-[3rem]">
       <Reveal y={80} width="100%">
         <p className="uppercase text-center text-[0.8rem] md:text-[0.7rem] tracking-widest font-medium underline">
           OUR PRODUCTS
         </p>
       </Reveal>
-      <section className="min-h-screen pt-[2.5rem] md:pt-[3rem] grid place-items-center border-b-[1.5px] border-black pb-[6rem]">
+      <section className="min-h-screen pt-[2.5rem] md:pt-[3rem] grid place-items-center pb-[6rem]">
         <div className="grid grid-cols-1 md:grid-cols-2 space-y-[4rem] md:space-y-0 md:gap-[3rem]">
           <Reveal y={300} width="100%">
             <div className="flex flex-col items-center justify-center w-[330px] border-[1.5px] border-black relative">

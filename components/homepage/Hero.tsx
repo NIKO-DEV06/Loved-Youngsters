@@ -56,7 +56,7 @@ const Hero = () => {
       </div>
 
       <ImageReveal>
-        <div className="border-2 border-black mx-[1.5rem] md:mx-[4rem] mt-[1rem]">
+        <div className=" mx-[1.5rem] md:mx-[4rem] mt-[1rem]">
           <video
             src="/intro.mp4"
             autoPlay
@@ -68,7 +68,7 @@ const Hero = () => {
         </div>
       </ImageReveal>
       <Reveal y={80}>
-        <div className="bg-[#94edfc] mt-[4rem] py-[1.5rem] border-y-[1.5px] border-black">
+        <div className="bg-[#94edfc] mt-[4rem] py-[1.5rem]">
           <Marquee gradient={false} direction="left" speed={70}>
             {Array.from({ length: 15 }, (_, index) => (
               <p

@@ -4,6 +4,7 @@ import stroke2 from "@/assets/stroke2.svg";
 import Marquee from "react-fast-marquee";
 import { Reveal } from "../utils/Reveal";
 import { ImageReveal } from "../utils/ImageReveal";
+import heroimg from "@/assets/new.png";
 
 const Hero = () => {
   return (

@@ -39,3 +39,17 @@
 .inputs {
   @apply bg-transparent placeholder:text-black outline-none border-[1.8px] indent-4 h-[2.5rem] w-[21rem] lg:h-[3rem] lg:w-[27rem] rounded-none appearance-none text-[0.95rem] lg:text-[1rem];
 }
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.floating-element {
+  animation: float 3s ease-in-out infinite;
+}

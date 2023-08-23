@@ -10,7 +10,7 @@ const Values = () => {
     <section className="min-h-screen px-[1.5rem] lg:px-[5rem] bg-[#35e1ff] pb-[5rem] pt-[2rem] border-b-[1.5px] border-black">
       <Reveal y={80} width="100%">
         <h1 className="text-[2.5rem] font-louize-medium text-center py-[3rem] lg:mb-[1rem]">
-          the SOUL of LOVED YOUNGSTERS
+          THE SOUL OF LOVED YOUNGSTERS
         </h1>
       </Reveal>
       <div className="flex flex-col lg:flex-row gap-[4rem] justify-center items-center lg:items-start text-center">

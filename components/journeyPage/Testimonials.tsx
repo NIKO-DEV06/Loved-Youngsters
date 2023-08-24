@@ -60,39 +60,81 @@ const Testimonials = () => {
           Parent Testimonial
         </h1>
       </Reveal>
-      {/* <ImageReveal> */}
-      <div className="flex flex-col lg:flex-row gap-[2rem] px-[3rem]">
-        <div className="border2 borderblack w-fit mx-auto  md:mx-4rem] mt-[3rem]">
-          <video
-            src="/parent2.mp4"
-            playsInline
-            controls
-            // poster="/thumbnail.png"
-            className="h-[400px] mx-auto grayscale"
-          ></video>
+      <ImageReveal>
+        <div>
+          <div className="flex flex-col lg:flex-row gap-[2rem] px-[3rem]">
+            <div className="border2 borderblack w-fit mx-auto  md:mx-4rem] mt-[3rem]">
+              <video
+                src="/parent2.mp4"
+                playsInline
+                controls
+                // poster="/thumbnail.png"
+                className="h-[400px] mx-auto grayscale"
+              ></video>
+            </div>
+            <div className="border2 borderblack w-fit h-fit mx-auto  md:mx-4rem] mt-[3rem]">
+              <video
+                src="/parent.mp4"
+                playsInline
+                controls
+                // poster="/thumbnail.png"
+                className="h-[400px] mx-auto grayscale"
+              ></video>
+            </div>
+          </div>
+
+          <div className="flex flex-col lg:flex-row gap-[2rem] px-[3rem]">
+            <div className="border2 borderblack w-fit mx-auto  md:mx-4rem] mt-[3rem]">
+              <video
+                src="/parente2.mp4"
+                playsInline
+                controls
+                // poster="/thumbnail.png"
+                className="h-[400px] mx-auto grayscale"
+              ></video>
+            </div>
+            <div className="border2 borderblack w-fit mx-auto  md:mx-4rem] mt-[3rem]">
+              <video
+                src="/elder2.mp4"
+                playsInline
+                controls
+                // poster="/thumbnail.png"
+                className="h-[400px] mx-auto grayscale"
+              ></video>
+            </div>
+            <div className="border2 borderblack w-fit h-fit mx-auto  md:mx-4rem] mt-[3rem]">
+              <video
+                src="/parente1.mp4"
+                playsInline
+                controls
+                // poster="/thumbnail.png"
+                className="h-[400px] mx-auto grayscale"
+              ></video>
+            </div>
+          </div>
+
+          <div className="flex flex-col lg:flex-row gap-[2rem] px-[3rem]">
+            <div className="border2 borderblack w-fit mx-auto  md:mx-4rem] mt-[3rem]">
+              <video
+                src="/parent3.mp4"
+                playsInline
+                controls
+                // poster="/thumbnail.png"
+                className="h-[400px] mx-auto grayscale"
+              ></video>
+            </div>
+            <div className="border2 borderblack w-fit h-fit mx-auto  md:mx-4rem] mt-[3rem]">
+              <video
+                src="/elder1.mp4"
+                playsInline
+                controls
+                // poster="/thumbnail.png"
+                className="h-[400px] mx-auto grayscale"
+              ></video>
+            </div>
+          </div>
         </div>
-        <div className="border2 borderblack w-fit h-fit mx-auto  md:mx-4rem] mt-[3rem]">
-          <video
-            src="/parent.mp4"
-            playsInline
-            controls
-            // poster="/thumbnail.png"
-            className="h-[400px] mx-auto grayscale"
-          ></video>
-        </div>
-      </div>
-      <div className="px-[3rem]">
-        <div className="border2 mx-auto borderblack w-fit mt-[3rem]">
-          <video
-            src="/parent3.mp4"
-            playsInline
-            controls
-            // poster="/thumbnail.png"
-            className="h-[400px] mx-auto grayscale"
-          ></video>
-        </div>
-      </div>
-      {/* </ImageReveal> */}
+      </ImageReveal>
     </section>
   );
 };

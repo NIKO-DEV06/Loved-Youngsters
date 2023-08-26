@@ -39,7 +39,7 @@ const Founder = () => {
           <ImageReveal>
             <Link
               href={"/about"}
-              className="border-[1px] hover:bg-[#35e1ff] duration-300 border-black uppercase text-[0.8rem] tracking-widest px-[0.8rem] py-[0.7rem] hover:font-semibold"
+              className="border-[1px] hover:bg-[#94edfc] font-semibold bg-[#35e1ff] rounded-full duration-300 border-black uppercase text-[0.8rem] tracking-widest px-[1.2rem] py-[1rem] hover:font-semibold"
             >
               Know More
             </Link>

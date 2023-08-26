@@ -35,13 +35,13 @@ const Hero = () => {
 
       <div className="relative z-10 pb-[2rem]">
         <Reveal y={80} width="100%">
-          <p className="uppercase text-center text-[0.8rem] md:text-[0.7rem] tracking-widest font-medium underline">
+          <p className="uppercase text-center text-[3rem] lg:text-[5rem] xl:text-[6rem] font-[800] md:text-[4rem] trackingwidest underlin font-louize-Bod px-[1rem] lg:mx-auto">
             Welcome to loved youngsters
           </p>
         </Reveal>
 
         <Reveal y={100} width="100%">
-          <p className="text-[1.9rem] md:text-[3rem] font-louize-medium md:font-louize text-center mt-[2rem] px-[1rem] md:w-[50%] md:mx-auto">
+          <p className="text-[1.5rem] md:text-[2rem] font-louize-medium md:font-louize text-center mt-[1rem] px-[1rem] md:mx-auto">
             A family of{" "}
             <span className="font-louize-mediumitalic font-semibold">
               love bonded

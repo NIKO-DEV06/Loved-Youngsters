@@ -35,7 +35,7 @@ const Hero = () => {
 
       <div className="relative z-10 pb-[2rem]">
         <Reveal y={80} width="100%">
-          <p className="uppercase text-center text-[3rem] lg:text-[5rem] xl:text-[6rem] font-[800] md:text-[4rem] trackingwidest underlin font-louize-Bod px-[1rem] lg:mx-auto text-[#342e2e]">
+          <p className="uppercase text-center text-[3rem] lg:text-[5rem] xl:text-[6rem] font-[800] md:text-[4rem] trackingwidest underlin font-louize-Bod px-[1rem] lg:mx-auto text-[#1c1b1b]">
             Welcome to loved youngsters
           </p>
         </Reveal>

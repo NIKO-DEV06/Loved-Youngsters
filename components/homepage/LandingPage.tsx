@@ -7,7 +7,7 @@ import Community from "../shared/Community";
 
 const LandingPage = () => {
   return (
-    <section className="bg-[#94edfc bg-[#35e1ff] min-h-screen pt-[11.5rem] md:pt-[5rem] overflow-x-hidden">
+    <section className="bg-[#94edfc] bg[#35e1ff] min-h-screen pt-[11.5rem] md:pt-[5rem] overflow-x-hidden">
       <Hero />
       <AboutSection />
       <Founder />

@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <ImageReveal>
       <>
-        <header className="bg-[#35e1ff] border-b-[1px] border-b-[#94edfc] md:border-b-black md:border-t-[1px] border-t-black md:border-none flex md:flex-col items-center justify-between px-[1.5rem] pt-[1rem] md:pt-[2rem] pb-[1rem] md:pb-0 fixed md:relative w-screen z-[11]">
+        <header className="bg-[#94edfc] border-b-[1px] border-b-[#94edfc] md:border-b-black md:border-t-[1px] border-t-black md:border-none flex md:flex-col items-center justify-between px-[1.5rem] pt-[1rem] md:pt-[2rem] pb-[1rem] md:pb-0 fixed md:relative w-screen z-[11]">
           <ImageReveal>
             <Link href={"/"}>
               <Image

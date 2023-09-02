@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const AboutSection = () => {
   return (
-    <section className="min-h-screen bg-[#35e1ff] px-[1.5rem] md:px-[4rem] relative pb-[5rem] md:pb-[8rem] md:flex md:justify-center md:items-center md:gap-[2rem] lg:gap-[4rem] md:pt-[5rem]">
+    <section className="min-h-screen bg-[#94edfc] px-[1.5rem] md:px-[4rem] relative pb-[5rem] md:pb-[8rem] md:flex md:justify-center md:items-center md:gap-[2rem] lg:gap-[4rem] md:pt-[5rem]">
       <ImageReveal>
         <Image
           src={flower}
@@ -47,7 +47,7 @@ const AboutSection = () => {
         <ImageReveal>
           <Link
             href={"/about"}
-            className="border-[1px] hover:bg-[#35e1ff] bg-[#94edfc] rounded-full duration-300 border-black uppercase text-[0.8rem] tracking-wide px-[1.3rem] py-[1rem] hover:font-semibold font-semibold"
+            className="border-[1px] bg-[#35e1ff] hover:bg-[#94edfc] rounded-full duration-300 border-black uppercase text-[0.8rem] tracking-wide px-[1.3rem] py-[1rem] hover:font-semibold font-semibold"
           >
             Learn More
           </Link>

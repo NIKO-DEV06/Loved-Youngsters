@@ -8,7 +8,7 @@ import { Reveal } from "../utils/Reveal";
 
 const Showcase = () => {
   return (
-    <section className="min-h-screen bg-[#35e1ff] px-[1.5rem] pt-[6rem] pb-[10rem]">
+    <section className="min-h-screen bg-[#94edfc] px-[1.5rem] pt-[6rem] pb-[10rem]">
       <ImageReveal>
         <div className="flex relative md:px-[2rem] lg:px-[7rem]">
           <Image

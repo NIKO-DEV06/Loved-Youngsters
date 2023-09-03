@@ -60,7 +60,7 @@ const ContactPage = () => {
 
   return (
     <>
-      <section className=" min-h-screen py-[8rem] md:pt-[3rem] bg-[#35e1ff]">
+      <section className=" min-h-screen py-[8rem] md:pt-[3rem] bg-[#94edfc]">
         <Toaster position="top-center" reverseOrder={false} />
         <ImageReveal>
           <Image

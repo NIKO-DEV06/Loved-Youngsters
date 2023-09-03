@@ -8,7 +8,7 @@ import { ImageReveal } from "../utils/ImageReveal";
 
 const FounderSection = () => {
   return (
-    <section className="min-h-screen bg-[#35e1ff] mt-[5rem] flex flex-col pb-[6rem]">
+    <section className="min-h-screen bg-[#94edfc] mt-[5rem] flex flex-col pb-[6rem]">
       <div className="flex flex-col md:flex-row gap-[2rem] lg:gap-[5rem] px-[1.5rem] lg:px-[8rem] justify-center items-center pt-[5rem]">
         <Image
           src={founder1}

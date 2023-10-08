@@ -26,7 +26,7 @@ const Community = () => {
             <Reveal y={80} width="100%">
               <Link
                 href={
-                  "https://docs.google.com/forms/d/e/1FAIpQLSdFNU9xQwar-hWL6E6i1KysNtjEZCJT4Sj6hrdTfW286g5aBQ/viewform"
+                  "https://docs.google.com/forms/d/e/1FAIpQLSebLexIsvWkGmmDVSY6_cCPmxanKN68R6A-ttK6zkHgrh5dVg/viewform?usp=pp_url"
                 }
               >
                 <div className="text-white bg-black mx-auto text-center w-[8.5rem] py-3 rounded-md mt-[2rem] cursor-pointer lg:mx-0 hover:bg-[#ffffff] hover:text-black duration-200 md:text-[0.95rem] mb-[1rem] lg:mb-[10rem] lg:translate-y-[5rem] lg:items-center lg:scale-[1.1]">

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Loved Youngsters | Contribute",
-  description: "A family of love bonded by the love of Christ.",
+  description: "A family loved to love.",
   keywords: ["loved youngsters", "loved", "ly", "simi", "araolouwa"],
 };
 const page = () => {

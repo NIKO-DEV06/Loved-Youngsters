@@ -8,7 +8,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Loved Youngsters",
-  description: "A family of love bonded by the love of Christ.",
+  description: "A family loved to love.",
   keywords: ["loved youngsters", "loved", "ly", "simi", "araolouwa"],
 };
 

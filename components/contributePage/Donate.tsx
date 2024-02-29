@@ -25,9 +25,9 @@ const Donate = () => {
           <h1 className=" font-louize-Bold text-black text-[1.2rem] text-center  lg:mx-auto lg:w-[50%]">
             "By deciding to be co-labourers of God's vision, you've just touched
             the world—one person at a time, youngster. You've given a teenager a
-            priceless gift— a family of love bonded by the love of Christ. Thank
-            you so much, youngster. You're loved and honoured. My heart prays
-            for you always. 'Simi ❤️"
+            priceless gift— A family loved to love. Thank you so much,
+            youngster. You're loved and honoured. My heart prays for you always.
+            'Simi ❤️"
           </h1>
         </Reveal>
         {/* <Reveal y={100}> */}

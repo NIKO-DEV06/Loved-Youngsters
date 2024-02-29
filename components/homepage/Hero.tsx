@@ -42,14 +42,10 @@ const Hero = () => {
 
         <Reveal y={100} width="100%">
           <p className="text-[1.5rem] md:text-[2rem] font-louize-medium md:font-louize text-center mt-[1rem] px-[1rem] md:mx-auto">
-            A family of{" "}
+            A family{" "}
             <span className="font-louize-mediumitalic font-semibold">
-              love bonded
+              loved to love
             </span>{" "}
-            by the love of{" "}
-            <span className="font-louize-mediumitalic font-semibold">
-              Christ
-            </span>
             .
           </p>
         </Reveal>

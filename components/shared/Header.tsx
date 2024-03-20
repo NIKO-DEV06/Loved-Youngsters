@@ -4,7 +4,7 @@ import Image from "next/image";
 import { ImageReveal } from "../utils/ImageReveal";
 import Nav from "./Nav";
 import Menu from "./Menu";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo-2.png";
 import Link from "next/link";
 
 const Header = () => {
@@ -28,7 +28,7 @@ const Header = () => {
                 width={140}
                 height={20}
                 alt="logo"
-                className="h-[70px] md:h-[90px] md:w-[200px] object-cover"
+                className="h-[70px] w-[180px] md:h-[90px] md:w-[300px] object-cover translate-x-[-1.5rem] md:translate-y-[-0.5rem] md:translate-x-0"
               />
             </Link>
           </ImageReveal>
